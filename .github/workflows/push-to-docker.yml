@@ -64,7 +64,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: jolanse/study_xxqg
+          images: rebootbrs/copy_qg
           tags: |
             type=raw,value=latest
             type=ref,event=tag
